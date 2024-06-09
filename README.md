@@ -10,3 +10,7 @@ The functionalities include:<br>
 5- Developer and Manager Authentication
 
 ## System Overview
+![Screenshot of the application](AArchitecturePMS.drawio.png)
+
+## Interface
+![Screenshot of the application](image.png)
