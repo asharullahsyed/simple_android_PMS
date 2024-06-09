@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonViewproject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonaddproject"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="18dp"
+        android:text="View project" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonviewdeveloper"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/roundedbutton"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/buttonviewdeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonlogout"
+        android:layout_alignLeft="@+id/buttonadddeveloper"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundedbutton"
+        android:text="View developer" />
+
+    <Button
+        android:id="@+id/buttonadddeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonviewdeveloper"
+        android:layout_alignLeft="@+id/buttonViewproject"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Add developer" />
+
+    <Button
+        android:id="@+id/buttonaddproject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonViewproject"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Add project" />
+
+    <Button
+        android:id="@+id/taskPerProjectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonViewproject"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Task Per Project" />
+
+</RelativeLayout>
