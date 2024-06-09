@@ -14,3 +14,11 @@ The functionalities include:<br>
 
 ## Interface
 ![Screenshot of the application](image.png)
+
+## Future Work
+Proper organization of directories and separation of frontend and backend code <br>
+Incorporating Modern Design look <br>
+Addition in Functionalities <br>
+Possible conversion to Kotlin <br>
+
+
